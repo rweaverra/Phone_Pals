@@ -1,0 +1,45 @@
+{
+  "name": "phone_pals",
+  "version": "1.0.0",
+  "description": "Phone Pals website",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server/ && nodemon server.js",
+    "build": "webpack --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rweaverra/Phone_Pals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rweaverra/Phone_Pals/issues"
+  },
+  "homepage": "https://github.com/rweaverra/Phone_Pals#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "cors": "^2.8.5",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.14.0",
+    "eslint-plugin-react": "^7.21.5",
+    "jest": "^26.6.3",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
