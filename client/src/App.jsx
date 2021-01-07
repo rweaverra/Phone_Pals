@@ -1,11 +1,10 @@
 import React from 'react';
-import Page from '../components/Page.jsx';
+import HomePage from '../components/HomePage.jsx';
 
 const App = () => {
     return (
         <div>
-            Hello World!
-            <Page />
+            <HomePage />
         </div>
     );
 }
