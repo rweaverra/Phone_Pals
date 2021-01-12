@@ -1,9 +1,10 @@
 import React from 'react';
+import HomePage from '../components/HomePage.jsx';
 
 const App = () => {
     return (
         <div>
-            Hello World!
+            <HomePage />
         </div>
     );
 }
