@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar.jsx';
+import NavBar from './Navbar.jsx';
 import Body from './Body.jsx';
 
 function HomePage (){
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <Body />
       <div>
         inside the page
