@@ -8,8 +8,11 @@ function NavBar() {
     <Navbar.Brand href="#home">Phone Pals Repair</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Repairs</Nav.Link>
-      <Nav.Link href="#pricing">About Us</Nav.Link>
+      <Nav.Link href="#repairs">Repairs</Nav.Link>
+      <Nav.Link href="#testimonials">Testimonials</Nav.Link>
+      <Nav.Link href="#about">About</Nav.Link>
+      <Nav.Link href="#contact">Contact</Nav.Link>
+      <Nav.Link href="#articles">Articles</Nav.Link>
     </Nav>
 
   </Navbar>
