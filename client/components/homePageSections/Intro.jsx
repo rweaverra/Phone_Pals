@@ -4,15 +4,11 @@ import {Container, Row, Column} from 'react-bootstrap';
 function IntroSection () {
 
   return (
-    <Container  className="intro">
-
-        <Row><h1>Phone Repair: Where you want, When you want
+    <div  className="intro">
+      <h1 className="header">Phone Repair: Where you want, When you want
 </h1>
-</Row>
-<Row>
-        <h2>Dont Stress, We will come to you!</h2>
-        </Row>
-    </Container>
+<h2 className="subHeader">Dont Stress, We will come to you!</h2>
+    </div>
 
   )
 }
