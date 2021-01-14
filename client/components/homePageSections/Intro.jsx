@@ -5,7 +5,13 @@ function IntroSection () {
 
   return (
     <Container  className="intro">
-        <div style={{backgroundImage: `url(https://imgur.com/uMl7hVV)`}}>1: Intro Section</div>
+
+        <Row><h1>Phone Repair: Where you want, When you want
+</h1>
+</Row>
+<Row>
+        <h2>Dont Stress, We will come to you!</h2>
+        </Row>
     </Container>
 
   )
