@@ -3,7 +3,7 @@ import React from 'react';
 function WhyPhonePals () {
 
   return (
-    <div>3: Why choose phone pals?</div>
+    <div className="whyContainer"><h1>Why choose phone pals?</h1> </div>
   );
 }
 
