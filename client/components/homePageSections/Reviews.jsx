@@ -1,12 +1,12 @@
 import React from 'react';
-import ReviewCard from './ReviewCard.jsx'
+import Review from './Review.jsx';
 
 function Reviews() {
 
   return (
     <div>
-    4:  Reviews Section
-    <ReviewCard />
+      <h1>See What Our Customers Are Saying</h1>
+    <Review />
     </div>
   );
 }
