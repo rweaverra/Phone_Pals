@@ -5,6 +5,9 @@ import WhyPhonePals from './homePageSections/WhyPhonePals.jsx';
 import Reviews from './homePageSections/Reviews.jsx';
 import WriteUp from './homePageSections/WriteUp.jsx';
 import Footer from './homePageSections/Footer.jsx';
+import {
+  Container, Col, Row
+} from 'react-bootstrap';
 
 
 function Body() {
@@ -14,8 +17,15 @@ function Body() {
       <Intro />
       <HowitWorks />
       <WhyPhonePals />
-      <Reviews />
-      <WriteUp />
+      <Row>
+        <Col>
+          <Reviews />
+        </Col>
+        <Col>
+        <WriteUp />
+        </Col>
+      </Row>
+
       <Footer />
     </div>
   )

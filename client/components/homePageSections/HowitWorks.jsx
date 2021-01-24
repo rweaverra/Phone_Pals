@@ -7,7 +7,7 @@ function HowitWorks () {
       <h1>How it Works</h1>
       <div className="howItWorks">
         <div className="howItWorksImage">
-          <img src="https://i.imgur.com/d7Rgpfy.jpg?2"></img>
+          <img src="https://i.imgur.com/d7Rgpfy.jpg?2" className="vanImage"></img>
         </div>
         <div className="howItWorksSteps">
        <text> <strong>Step 1) Book Appointment <br/></strong>
